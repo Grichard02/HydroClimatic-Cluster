@@ -1,0 +1,26 @@
+{
+    "project": "ACP Hydroclimatic Clustering",
+    "source": "NASA POWER Daily API",
+    "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?latitude=9.2&longitude=-79.9&start=20150101&end=20251231&parameters=PRECTOTCORR%2CT2M%2CRH2M%2CWS10M%2CALLSKY_SFC_SW_DWN&community=AG&format=JSON&time-standard=LST",
+    "Latitude": 9.2,
+    "Longitude": -79.9,
+    "start-date": "20150101",
+    "end-date": "20251231",
+    "parameters": [
+        "PRECTOTCORR",
+        "T2M",
+        "RH2M",
+        "WS10M",
+        "ALLSKY_SFC_SW_DWN"
+    ],
+    "time_standard": "LST",
+    "downloaded_at_utc": "2026-10-28T21:15:14.363775+00:00",
+    "rows": 4018,
+    "columns": [
+        "PRECTOTCORR",
+        "T2M",
+        "RH2M",
+        "WS10M",
+        "ALLSKY_SFC_SW_DWN"
+    ]
+}
